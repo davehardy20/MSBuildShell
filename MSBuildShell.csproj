@@ -6,11 +6,11 @@
   <!-- Author and founder of the MSBuild Application Whitelisting Bypass code: Casey Smith, Twitter: @subTee -->
   <!-- Powershell Host Code: Original from Microsoft (MSDN), modified by Cn33liz, Twitter: @Cneelis -->
   <!-- License: BSD 3-Clause -->
-  <Target Name="MSBuildPosh">
-   <MSBuildShell/>
+  <Target Name="MSBuildDavesVersion">
+   <DavesVersion/>
   </Target>
    <UsingTask
-    TaskName="MSBuildShell"
+    TaskName="DavesVersion"
     TaskFactory="CodeTaskFactory"
     AssemblyFile="C:\Windows\Microsoft.Net\Framework\v4.0.30319\Microsoft.Build.Tasks.v4.0.dll" >
      <Task>
